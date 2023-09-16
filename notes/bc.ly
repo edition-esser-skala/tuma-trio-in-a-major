@@ -98,7 +98,7 @@ BourreeBassoContinuo = {
   \relative c {
     \clef bass
     \twofourtime \key a \major \time 2/4 \tempoBourree
-    \partial 8 r8 r a'16 gis a8 d,
+    \partial 8 r8 r a'16\fE gis a8 d,
     e gis16 fis gis8 e
     a4 r
     r8 gis16 fis gis8 e
