@@ -15,6 +15,7 @@ markMDC = {
 tempoIntrata = \tempoMarkup "[Tempo deest]"
 tempoBourree = \tempoMarkup "[Tempo deest]"
 tempoMenuette = \tempoMarkup "[Tempo deest]"
+tempoPastorella = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

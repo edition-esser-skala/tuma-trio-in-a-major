@@ -210,3 +210,39 @@ MenuetteBassFigures = \figuremode {
   \bc <[6]>2.
   r %24 finis
 }
+
+PastorellaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoPastorella
+    a'4\fE gis a cis,8 h
+    a cis d e a, a'16 gis a8 h,
+    cis a h' a gis e a h, \noBreak
+    cis a h' a gis e16 fis gis8 e \bar ":|.|:"
+    e4 dis e fis8 dis \noBreak %5
+    e gis a h e,4 r
+    e8 gis a h e,4. d!8
+    cis4 h a8 cis d e
+    a,4 fis'8 d e gis16 fis e8 d
+    cis h a d cis h a d %10
+    cis4 d8 e a, a'16 gis a8 h,
+    cis a h' a gis e a h,
+    cis fis d e a,4\fermata a16 h cis d \bar ":|." %13 finis
+  }
+}
+
+PastorellaBassFigures = \figuremode {
+  r4 <6>2 q8 q
+  r4 q2 r8 q
+  <[6]>4 <6> <[6]>4. <6>8
+  <[6]>4 <6>8 \bo <[6 4]> \bc <[6 _]>2
+  r4 <6>2 <6\\>8 <5> %5
+  r4 <[6]>8 <_+> r2
+  r4 <[6]>8 <_+> r2
+  <6>4 q2.
+  r4 \bo <[6]>8 \bc q r2
+  <6> q %10
+  q4 q2 r8 q
+  q4 \bo <[6]> \bc q4. <6>8
+  q <5> <6>2. %13 finis
+}

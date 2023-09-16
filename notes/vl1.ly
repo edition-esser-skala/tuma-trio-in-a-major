@@ -114,3 +114,23 @@ MenuetteViolinoI = {
     a2\fermata r4 \bar ":|." %24 finis
   }
 }
+
+PastorellaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoPastorella
+    a'4\fE h8. a32 h cis8 a16 cis e8 fis16 gis
+    a8 e16 cis d8 h16 gis a4 cis8 d
+    e cis16 a gis8 a h gis16 e cis'8 d \noBreak
+    e cis16 a gis8. a16 h4 r \bar ":|.|:"
+    e fis8. e32 fis gis8 e16 gis a4 \noBreak %5
+    h8 gis16 e a8 fis16 dis e8 e,16 fis gis8 a
+    h gis16 e a8 fis16 dis e8 a16 h cis8 d
+    e cis16 a d8 h16 gis a8 a, d' h16 gis
+    a8 a, d' h16 a gis8 e e' fis16 gis
+    a1 %10
+    a8 e16 cis d8 h16 gis a4 cis8 d
+    e cis16 a gis8 a h gis16 e cis'8 d
+    e cis16 a d8 h16 gis a4\fermata r \bar ":|." %13 finis
+  }
+}
