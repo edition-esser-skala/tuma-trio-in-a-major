@@ -13,6 +13,7 @@ markMDC = {
 
 
 tempoIntrata = \tempoMarkup "[Tempo deest]"
+tempoBourree = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/vl1.ly"

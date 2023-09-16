@@ -51,3 +51,34 @@ IntrataViolinoII = {
     }
   }
 }
+
+BourreeViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBourree
+    \partial 8 cis16\fE h cis8 cis a gis'16 fis
+    gis8 gis e a16 gis
+    a8 cis h a
+    gis16 a h8 e,4
+    a8 cis h a %5
+    gis h a4
+    a h,8 h \noBreak
+    a4 r8 \bar ":|.|:" a'16 gis \noBreak
+    a8 cis h a \noBreak
+    gis16 fis e8 r4 %10
+    r8 h' fis' e16 dis
+    e4 r8 \tuplet 3/2 8 { gis,16 fis e }
+    fis8 e r \tuplet 3/2 8 { gis16 fis e }
+    fis8 e r e16 dis
+    e4 fis8 fis %15
+    gis e r16 cis' h a
+    h4~ h16 h a gis
+    a4 r8 a
+    a4 r8 gis16 fis
+    e4 r8 \tuplet 3/2 8 { cis16 h a } %20
+    h8 a r \tuplet 3/2 8 { cis16 h a }
+    h8 a r a'16 gis
+    a4 h,8 h
+    a4 r8\fermata \bar ":|." %24 finis
+  }
+}

@@ -93,3 +93,61 @@ IntrataBassFigures = \figuremode {
   r
   r %39 finis
 }
+
+BourreeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoBourree
+    \partial 8 r8 r a'16 gis a8 d,
+    e gis16 fis gis8 e
+    a4 r
+    r8 gis16 fis gis8 e
+    a4 r %5
+    e d
+    cis8 d e e, \noBreak
+    a4 r8 \bar ":|.|:" r \noBreak
+    a'4 r8 a, \noBreak
+    e'4 gis16 fis gis e %10
+    fis8 dis r h
+    e, gis'16 fis e4
+    r8 gis16 fis e8 e16 fis
+    r8 gis16 fis e8 e16 fis
+    gis8 a h h, %15
+    e16 e' h gis e4
+    e gis8 e
+    a4 r8 d,
+    d cis fis d^\critnote
+    e gis16 fis e8 r %20
+    r cis16 h a4
+    r8 cis16 h a8 a16 h
+    cis8 d e e,
+    a4 r8\fermata \bar ":|." %24 finis
+  }
+}
+
+BourreeBassFigures = \figuremode {
+  r8 r4. <6>8
+  r4. <7>8
+  r2
+  r8 <[6]>4.
+  r2 %5
+  r4 <6>
+  <[6]>2
+  r
+  r
+  r %10
+  <[6\\]>8 <6>4 <[_+]>8
+  r2
+  r
+  r
+  r4 <[_+]> %15
+  r2
+  <7!>
+  r
+  r8 \bo <[6]> <6> q
+  r2 %20
+  r8 q4.
+  r8 q r8. q16
+  \bc <[6]>2
+  r4. %24 finis
+}
