@@ -82,3 +82,35 @@ BourreeViolinoII = {
     a4 r8\fermata \bar ":|." %24 finis
   }
 }
+
+MenuetteViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoMenuette
+      \once \override Staff.TimeSignature.style = #'single-digit
+    cis'8\fE d e4 a,
+    r h, cis
+    r gis' a
+    h h a
+    r a d %5
+    h cis a
+    h e, d \noBreak
+    cis2 r4 \bar ":|.|:"
+    cis'8 d e4 cis \noBreak
+    h a gis %10
+    dis'8 e fis4 fis
+    fis fis, e
+    e' e, gis'8 fis
+    e4 dis8 e fis4
+    r h, a %15
+    gis r r
+    a a cis8 d!
+    e4 d r
+    r d cis
+    h cis r %20
+    r cis h
+    a gis8 a h4
+    h e, d
+    cis2\fermata r4 \bar ":|." %24 finis
+  }
+}

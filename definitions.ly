@@ -8,12 +8,13 @@
 
 markMDC = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Menuetto da capo"
+  \mark \markup \remark "Menuette da capo"
 }
 
 
 tempoIntrata = \tempoMarkup "[Tempo deest]"
 tempoBourree = \tempoMarkup "[Tempo deest]"
+tempoMenuette = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/vl1.ly"

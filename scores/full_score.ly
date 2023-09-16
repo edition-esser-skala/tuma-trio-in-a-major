@@ -36,8 +36,37 @@
   %     \midi { \tempo 4 = 130 }
   %   }
   % }
+  % \bookpart {
+  %   \section "II" "Bourrée"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \BourreeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \BourreeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "b"
+  %           \transpose c c,
+  %           \BourreeBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \BourreeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "II" "Bourrée"
+    \section "III" "Menuette"
     \addTocEntry
     \score { %\articulate
       <<
@@ -46,54 +75,25 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \BourreeViolinoI
+              \MenuetteViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \BourreeViolinoII
+              \MenuetteViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "b"
-            \transpose c c,
-            \BourreeBassoContinuo
+            % \transpose c c,
+            \MenuetteBassoContinuo
           }
         >>
-        \new FiguredBass { \BourreeBassFigures }
+        \new FiguredBass { \MenuetteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 2. = 60 }
     }
   }
-  % \bookpart {
-  %   \section "III" "Menuetto"
-  %   % \addTocEntry
-  %   \score { %\articulate
-  %     <<
-  %       \new StaffGroup <<
-  %         \new GrandStaff \with { \smallGroupDistance } <<
-  %           \set GrandStaff.instrumentName = "vl"
-  %           \new Staff {
-  %             \set Staff.instrumentName = "1"
-  %             \MenuettoViolinoI
-  %           }
-  %           \new Staff {
-  %             \set Staff.instrumentName = "2"
-  %             \MenuettoViolinoII
-  %           }
-  %         >>
-  %         \new Staff {
-  %           \set Staff.instrumentName = "b"
-  %           % \transpose c c,
-  %           \MenuettoBassoContinuo
-  %         }
-  %       >>
-  %       \new FiguredBass { \MenuettoBassFigures }
-  %     >>
-  %     \layout { }
-  %     \midi { \tempo 4 = 150 }
-  %   }
-  % }
   % \bookpart {
   %   \section "IV" "Pastorella"
   %   % \addTocEntry

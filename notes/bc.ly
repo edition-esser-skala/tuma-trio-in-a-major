@@ -151,3 +151,62 @@ BourreeBassFigures = \figuremode {
   \bc <[6]>2
   r4. %24 finis
 }
+
+MenuetteBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoMenuette
+      \once \override Staff.TimeSignature.style = #'single-digit
+    a2\fE cis4
+    d e a,
+    e' h' a
+    gis e a
+    fis d d %5
+    e a, cis
+    d e e, \noBreak
+    a d8 cis h a \bar ":|.|:"
+    a2 a'4 \noBreak
+    e2 gis8 a %10
+    h2 h,4
+    h dis e
+    r gis8 fis e4
+    r fis8 e dis4
+    e gis,8 a h4 %15
+    e, e' d!
+    cis2 a4
+    r d cis
+    h2 r4
+    r cis h %20
+    a2 r4
+    r h' e,
+    gis a8 d, e4
+    a,\fermata e'8 d cis h \bar ":|." %24 finis
+  }
+}
+
+MenuetteBassFigures = \figuremode {
+  r2 <6>4
+  r2.
+  r4 \bo <[6 _]> <6 4>
+  <6> <7>2
+  \bc <[6 _]>2. %5
+  r2 <6>4
+  q2.
+  r
+  r
+  r %10
+  <7 _+>2.
+  r4 <6 5>2
+  r2.
+  r4 <5> <6>8 <5>
+  r4 <[6]> <_+> %15
+  r2.
+  <6>4 <5!> \bo <[7!]>
+  <9> <8> <\t>
+  r2.
+  r4 <6> q %20
+  r2.
+  r4 <6> <7>
+  \bc <[6]>2.
+  r %24 finis
+}
