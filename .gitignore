@@ -1,0 +1,17 @@
+final/*
+manuscript/*
+tmp/*
+front_matter/critical_report.pdf
+main.pdf
+main.midi
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.macros
+*.out
+*.ps
+*.ref
+*.toc

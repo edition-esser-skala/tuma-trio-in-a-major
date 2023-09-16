@@ -1,0 +1,16 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Trio in A major
+genre: instrumental
+scoring: 2 vl, b
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-KA
+    shelfmark: Mus. Hs. 969
+    rism: 453002790
+    url: https://digital.blb-karlsruhe.de/567260
+    license: CC BY-SA 4.0
+    principal: true
+imslp: Partita_in_A_minor_(Tůma,_František_Ignác_Antonín)
