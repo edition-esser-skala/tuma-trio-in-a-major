@@ -3,12 +3,12 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
-% \paper { systems-per-page = #4 }
+\paper { systems-per-page = #4 }
 
 \book {
   \bookpart {
     \section "I" "Intrata"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 2\cm }
     \score { %\articulate
       <<
@@ -26,14 +26,14 @@
           >>
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            % \transpose c c,
+            \transpose c c,
             \IntrataBassoContinuo
           }
         >>
         \new FiguredBass { \IntrataBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 130 }
     }
   }
   % \bookpart {
